@@ -1,0 +1,34 @@
+[
+  {
+    "name": "kak_si_dobre_a_ti_kak_si",
+    "children": [
+      "dobre_radvam_se_products_prop",
+      "zle_syjalqvam"
+    ]
+  },
+  {
+    "name": "dobre_radvam_se_products_prop",
+    "children": [
+      "da_products_description",
+      "ne_game_prop"
+    ]
+  },
+  {
+    "name": "ne_game_prop",
+    "children": [
+      "da_game_explain",
+      "ne_ok"
+    ]
+  },
+  {
+    "name": "zdravei_zdrasti_kak_si",
+    "children": [
+      "dobre_radvam_se_products_prop",
+      "zle_syjalqvam"
+    ]
+  },
+  {
+    "name": "chao_chao",
+    "children": []
+  }
+]

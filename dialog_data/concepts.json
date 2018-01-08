@@ -1,0 +1,111 @@
+[
+  {
+    "concept_name": "zdrasti",
+    "threshold": 0.75,
+    "variations": [
+      "здравей",
+      "здрасти",
+      "привет"
+    ]
+  },
+  {
+    "concept_name": "chao",
+    "threshold": 0.75,
+    "variations": [
+      "чао",
+      "довиждане"
+    ]
+  },
+  {
+    "concept_name": "kak_si",
+    "threshold": 0.75,
+    "variations": [
+      "как си",
+      "как е",
+      "какво става"
+    ]
+  },
+  {
+    "concept_name": "dobre_sam",
+    "threshold": 0.75,
+    "variations": [
+      "добре е",
+      "добре съм",
+      "супер съм",
+      "чувствам се добре",
+      "бива"
+    ]
+  },
+  {
+    "concept_name": "zle",
+    "threshold": 0.75,
+    "variations": [
+      "зле",
+      "не съм добре"
+    ]
+  },
+  {
+    "concept_name": "radvam_se",
+    "threshold": 0.75,
+    "variations": [
+      "радвам се"
+    ]
+  },
+  {
+    "concept_name": "products_prop",
+    "threshold": 0.75,
+    "variations": [
+      "искаш ли за ти разкажа за нашите продукти"
+    ]
+  },
+  {
+    "concept_name": "da",
+    "threshold": 0.75,
+    "variations": [
+      "да"
+    ]
+  },
+  {
+    "concept_name": "ne",
+    "threshold": 0.75,
+    "variations": [
+      "не"
+    ]
+  },
+  {
+    "concept_name": "ok",
+    "threshold": 0.75,
+    "variations": [
+      "ок",
+      "добре тогава"
+    ]
+  },
+  {
+    "concept_name": "products_description",
+    "threshold": 0.75,
+    "variations": [
+      "разказвам ти за нашите продукти"
+    ]
+  },
+  {
+    "concept_name": "game_prop",
+    "threshold": 0.75,
+    "variations": [
+      "искаш ли да си играем"
+    ]
+  },
+  {
+    "concept_name": "game_explain",
+    "threshold": 0.75,
+    "variations": [
+      "разказвам ти за игрите"
+    ]
+  },
+  {
+    "concept_name": "syjalqvam",
+    "threshold": 0.75,
+    "variations": [
+      "съжалявам да ги чуя"
+    ]
+  }
+]

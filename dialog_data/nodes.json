@@ -1,0 +1,104 @@
+[
+  {
+    "name": "kak_si_dobre_a_ti_kak_si",
+    "is_root": true,
+    "concepts": [
+      "kak_si"
+    ],
+    "concept_answers": [
+      "dobre_sam",
+
+      "kak_si"
+    ],
+    "context": null
+  },
+  {
+    "name": "dobre_radvam_se_products_prop",
+    "is_root": false,
+    "concepts": [
+      "dobre_sam"
+    ],
+    "concept_answers": [
+      "radvam_se",
+      "products_prop"
+    ],
+    "context": "kak_si_dobre_a_ti_kak_si"
+  },
+  {
+    "name": "da_products_description",
+    "is_root": false,
+    "concepts": [
+      "da"
+    ],
+    "concept_answers": [
+      "products_description"
+    ],
+    "context": "dobre_radvam_se_products_prop"
+  },
+  {
+    "name": "ne_game_prop",
+    "is_root": false,
+    "concepts": [
+      "ne"
+    ],
+    "concept_answers": [
+      "ok",
+      "game_prop"
+    ],
+    "context": "dobre_radvam_se_products_prop"
+  },
+  {
+    "name": "da_game_explain",
+    "is_root": false,
+    "concepts": [
+      "da"
+    ],
+    "concept_answers": [
+      "game_explain"
+    ],
+    "context": "ne_game_prop"
+  },
+  {
+    "name": "ne_ok",
+    "is_root": false,
+    "concepts": [
+      "ne"
+    ],
+    "concept_answers": [
+      "ok"
+    ],
+    "context": "ne_game_prop"
+  },
+  {
+    "name": "zle_syjalqvam",
+    "is_root": false,
+    "concepts": [
+      "zle"
+    ],
+    "concept_answers": [
+      "syjalqvam"
+    ],
+    "context": "kak_si_dobre_a_ti_kak_si"
+  },
+  {
+    "name": "zdravei_zdrasti_kak_si",
+    "is_root": true,
+    "concepts": [
+      "zdrasti"
+    ],
+    "concept_answers": [
+      "zdrasti",
+      "kak_si"
+    ]
+  },
+  {
+    "name": "chao_chao",
+    "is_root": true,
+    "concepts": [
+      "chao"
+    ],
+    "concept_answers": [
+      "chao"
+    ]
+  }
+]
