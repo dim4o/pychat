@@ -36,7 +36,7 @@ class DialogBuilder(object):
         for raw_con in raw_concepts:
             concept_name = raw_con['concept_name']
             variations = raw_con['variations']
-            threshold = raw_con.get('threshold', "empty")
+            threshold = raw_con.get('threshold', None)
             curr_concept = Concept(concept_name, variations, threshold)
             concepts_dict[concept_name] = curr_concept
 

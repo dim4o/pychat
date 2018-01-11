@@ -65,10 +65,11 @@ class DialogEngine(object):
 
             for concept in node_concepts:
                 variations = concept.get_variations()
+                local_threshold = concept.get_threshold() or self._threshold
 
                 for variation in variations:
                     dist = 1 - self._get_min_distance(input_chat.lower(), variation.lower())
-                    if dist < best_distance and 1 - dist > self._threshold:
+                    if dist < best_distance and 1 - dist > local_threshold:
                         best_distance = dist
                         best_match_node = curr_node
 
