@@ -16,3 +16,6 @@ class Concept(object):
 
     def get_threshold(self):
         return self._threshold
+
+    def get_name(self):
+        return self._concept_name

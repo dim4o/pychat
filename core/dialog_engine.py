@@ -40,7 +40,9 @@ class DialogEngine(object):
         best_match_node_concepts = best_match.get_concept_answer()
         response = []
         for concept in best_match_node_concepts:
-            response.append(random.choice(concept.get_variations()))
+            concept_variations = concept.get_variations()
+            response_part = random.choice(concept_variations) if concept_variations else concept.get_name()
+            response.append(response_part)
 
         return response
 

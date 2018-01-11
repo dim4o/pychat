@@ -61,7 +61,7 @@ class DialogBuilder(object):
             for c in concept_names:
                 concepts.append(concepts_dict[c])
             for ca in concept_answers_names:
-                concept_answers.append(concepts_dict[ca])
+                concept_answers.append(concepts_dict.get(ca, None) or Concept(ca))
 
             curr_node = Node(name, concepts, concept_answers, is_root)
             nodes_dict[name] = curr_node
