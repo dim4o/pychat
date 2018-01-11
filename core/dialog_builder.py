@@ -53,7 +53,7 @@ class DialogBuilder(object):
         raw_nodes = self._read_json(self._dialog_location + '/nodes.json')
         for raw_n in raw_nodes:
             name = raw_n['name']
-            is_root = raw_n['is_root']
+            is_root = raw_n.get('is_root', False)
             concept_names = raw_n['concepts']
             concept_answers_names = raw_n['concept_answers']
             concepts = []

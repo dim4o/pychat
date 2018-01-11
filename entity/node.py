@@ -2,7 +2,7 @@ class Node(object):
     """
     Represents a chat dialog unit that contains concepts for the dialog topic and the respective answer.
     """
-    def __init__(self, name, concept, concept_answer, is_root=False, children=None):
+    def __init__(self, name, concept, concept_answer, is_root, children=None):
         self._is_root = is_root
         self._name = name
         self._children = children if children else []
