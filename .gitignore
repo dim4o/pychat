@@ -1,2 +1,4 @@
 /.idea
 *.pyc
+/dialog_data
+example_consumer.py
